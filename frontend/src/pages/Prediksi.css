@@ -64,7 +64,9 @@
   transition: border-color 0.2s;
 }
 
-.select-field:focus { border-color: #C9910A; }
+.select-field:focus {
+  border-color: #c9910a;
+}
 
 .period-static {
   width: 100%;
@@ -84,13 +86,19 @@
   margin: 0 0 0.75rem;
 }
 
-.rmi-val--up { color: #16a34a; }
-.rmi-val--hold { color: #C9910A; }
-.rmi-val--down { color: #dc2626; }
+.rmi-val--up {
+  color: #16a34a;
+}
+.rmi-val--hold {
+  color: #c9910a;
+}
+.rmi-val--down {
+  color: #dc2626;
+}
 
 .submit-btn {
   width: 100%;
-  background: #C9910A;
+  background: #c9910a;
   color: #fff;
   border: none;
   border-radius: 9px;
@@ -103,12 +111,14 @@
   margin-top: 0.25rem;
 }
 
-.submit-btn:hover { background: #a87509; }
+.submit-btn:hover {
+  background: #a87509;
+}
 
 .disclaimer {
-  background: #FFFBF0;
-  border: 1px solid #F5D98A;
-  border-left: 3px solid #C9910A;
+  background: #fffbf0;
+  border: 1px solid #f5d98a;
+  border-left: 3px solid #c9910a;
   border-radius: 10px;
   padding: 1.25rem;
   margin-top: 1.25rem;
@@ -117,15 +127,21 @@
 .disc-title {
   font-size: 0.7rem;
   font-weight: 700;
-  color: #C9910A;
+  color: #c9910a;
   margin-bottom: 0.5rem;
   display: flex;
   align-items: center;
   gap: 5px;
 }
 
-.disclaimer p      { font-size: 0.68rem; color: #888; line-height: 1.75; }
-.disclaimer strong { color: #555; }
+.disclaimer p {
+  font-size: 0.68rem;
+  color: #888;
+  line-height: 1.75;
+}
+.disclaimer strong {
+  color: #555;
+}
 
 .pred-actions {
   display: flex;
@@ -144,13 +160,16 @@
   font-weight: 600;
   cursor: pointer;
   font-family: 'Poppins', sans-serif;
-  transition: border-color 0.2s, color 0.2s, background 0.2s;
+  transition:
+    border-color 0.2s,
+    color 0.2s,
+    background 0.2s;
   background: #fff;
 }
 
 .pred-again-btn:hover {
-  border-color: #C9910A;
-  color: #C9910A;
+  border-color: #c9910a;
+  color: #c9910a;
 }
 
 .pred-again-btn:disabled {
@@ -165,12 +184,14 @@
 }
 
 .pred-login-hint a {
-  color: #C9910A;
+  color: #c9910a;
   font-weight: 600;
   text-decoration: none;
 }
 
-.pred-login-hint a:hover { text-decoration: underline; }
+.pred-login-hint a:hover {
+  text-decoration: underline;
+}
 
 .result-panel {
   display: flex;
@@ -198,7 +219,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #FEF3DC;
+  background: #fef3dc;
   border-radius: 16px;
 }
 
@@ -255,7 +276,11 @@
   line-height: 1;
 }
 
-.rm-unit { font-size: 0.8rem; font-weight: 400; color: #555; }
+.rm-unit {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #555;
+}
 
 .rm-sub {
   font-size: 0.7rem;
@@ -268,7 +293,7 @@
   align-items: center;
   gap: 5px;
   background: rgba(201, 145, 10, 0.2);
-  color: #C9910A;
+  color: #c9910a;
   font-size: 0.72rem;
   font-weight: 600;
   padding: 5px 11px;
@@ -287,6 +312,7 @@
   border: 1px solid #eaeaea;
   border-radius: 14px;
   padding: 1.25rem;
+  min-width: 0;
 }
 
 .rmi-label {
@@ -316,6 +342,7 @@
   border: 1px solid #eaeaea;
   border-radius: 18px;
   padding: 1.75rem;
+  min-width: 0;
 }
 
 .rec-card--up {
@@ -368,7 +395,7 @@
 
 .rec-card--hold .rec-hero-icon {
   background: #fffbeb;
-  color: #C9910A;
+  color: #c9910a;
 }
 
 .rec-card--down .rec-hero-icon {
@@ -398,7 +425,7 @@
 }
 
 .rec-card--hold .rec-action-title {
-  color: #C9910A;
+  color: #c9910a;
 }
 
 .rec-card--down .rec-action-title {
@@ -427,6 +454,10 @@
   gap: 0.85rem;
 }
 
+.rec-detail-text {
+  min-width: 0;
+}
+
 .rec-detail-icon {
   width: 40px;
   height: 40px;
@@ -444,7 +475,7 @@
 
 .rec-card--hold .rec-detail-icon {
   background: #fffbeb;
-  color: #C9910A;
+  color: #c9910a;
 }
 
 .rec-card--down .rec-detail-icon {
@@ -467,6 +498,7 @@
   font-size: 0.75rem;
   color: #888;
   line-height: 1.5;
+  overflow-wrap: anywhere;
 }
 
 .rm-badge--up {
@@ -474,7 +506,7 @@
 }
 
 .rm-badge--hold {
-  color: #C9910A;
+  color: #c9910a;
 }
 
 .rm-badge--down {
@@ -482,7 +514,7 @@
 }
 
 .confidence {
-  background: #F7F5F0;
+  background: #f7f5f0;
   border-radius: 10px;
   padding: 1rem 1.25rem;
   margin-top: 1rem;
@@ -506,13 +538,13 @@
 .conf-bar-fill {
   height: 100%;
   border-radius: 3px;
-  background: linear-gradient(90deg, #C9910A, #F5D98A);
+  background: linear-gradient(90deg, #c9910a, #f5d98a);
 }
 
 .conf-pct {
   font-size: 0.72rem;
   font-weight: 700;
-  color: #C9910A;
+  color: #c9910a;
   text-align: right;
 }
 
@@ -547,7 +579,7 @@
 }
 
 .history-refresh {
-  background: #F7F5F0;
+  background: #f7f5f0;
   border: 1px solid #eaeaea;
   border-radius: 9px;
   padding: 9px 14px;
@@ -559,8 +591,8 @@
 }
 
 .history-refresh:hover {
-  border-color: #C9910A;
-  color: #C9910A;
+  border-color: #c9910a;
+  color: #c9910a;
 }
 
 .history-refresh:disabled {
@@ -585,7 +617,7 @@
 }
 
 .history-table thead tr {
-  background: #F7F5F0;
+  background: #f7f5f0;
   border-bottom: 2px solid #eaeaea;
 }
 
@@ -622,7 +654,7 @@
 }
 
 .history-table tbody td.hold {
-  color: #C9910A;
+  color: #c9910a;
   font-weight: 600;
 }
 
@@ -653,12 +685,14 @@
   cursor: pointer;
   font-family: 'Poppins', sans-serif;
   color: #666;
-  transition: border-color 0.2s, color 0.2s;
+  transition:
+    border-color 0.2s,
+    color 0.2s;
 }
 
 .history-more:hover:not(:disabled) {
-  border-color: #C9910A;
-  color: #C9910A;
+  border-color: #c9910a;
+  color: #c9910a;
 }
 
 .history-more:disabled {
@@ -698,5 +732,72 @@
 
   .history-table-wrap {
     -webkit-overflow-scrolling: touch;
+  }
+
+  .result-main {
+    padding: 1.25rem;
+  }
+
+  .rm-price {
+    font-size: 1.9rem;
+    overflow-wrap: anywhere;
+  }
+
+  .result-row {
+    grid-template-columns: 1fr;
+  }
+
+  .result-mini {
+    padding: 1rem;
+  }
+
+  .rmi-val {
+    overflow-wrap: anywhere;
+  }
+
+  .rec-card {
+    padding: 1.25rem;
+  }
+
+  .rec-heading {
+    margin-bottom: 1rem;
+  }
+
+  .rec-hero {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+
+  .rec-hero-icon {
+    width: 56px;
+    height: 56px;
+    border-radius: 14px;
+  }
+
+  .rec-action-title {
+    font-size: 1.05rem;
+  }
+
+  .rec-summary {
+    font-size: 0.76rem;
+  }
+
+  .rec-detail-row {
+    gap: 0.7rem;
+  }
+
+  .rec-detail-icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 9px;
+  }
+
+  .confidence {
+    padding: 0.85rem 1rem;
+  }
+
+  .conf-pct {
+    text-align: left;
   }
 }
