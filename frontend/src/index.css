@@ -12,6 +12,7 @@ body {
   background: #f7f5f0;
   color: #1a1a1a;
   -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
 }
 
 /* Page shell: push footer to bottom */
@@ -140,7 +141,7 @@ body {
   border-radius: 50%;
   object-fit: contain;
   flex-shrink: 0;
-  background: #F7F5F0;
+  background: #f7f5f0;
   border: 1px solid #eaeaea;
 }
 
@@ -163,7 +164,9 @@ body {
   font-weight: 600;
   cursor: pointer;
   font-family: 'Poppins', sans-serif;
-  transition: border-color 0.2s, color 0.2s;
+  transition:
+    border-color 0.2s,
+    color 0.2s;
 }
 
 .nb-btn-secondary:hover {
@@ -205,8 +208,12 @@ body {
   border-radius: 2px;
 }
 
-.nb-burger-lines::before { top: -6px; }
-.nb-burger-lines::after  { top:  6px; }
+.nb-burger-lines::before {
+  top: -6px;
+}
+.nb-burger-lines::after {
+  top: 6px;
+}
 
 .nb-mobile {
   position: fixed;
